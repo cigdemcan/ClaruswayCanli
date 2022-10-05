@@ -28,10 +28,14 @@ public class Task04Atm {
                 break;
             default:
                 System.out.println("agam daha seçim yapamirsen bir de para istirsen");
+                secim();
        }
 
 
 
+    }
+
+    private static void secim() {
     }
 
     private static void çıkışYap() {

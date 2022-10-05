@@ -1,6 +1,8 @@
+package day05;
+
 import java.util.Scanner;
 
-public class day05 {
+public class Q01_MethodCreation {
     public static void main(String[] args) {
         /*
          * girilen String icinde "xyz" dizimi var ise true degilse false return eden metod yaziniz
