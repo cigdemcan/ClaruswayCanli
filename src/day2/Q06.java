@@ -17,6 +17,18 @@ public class Q06 {
         3. 15 ~ 23 ==> good night
         4. 12 ==> good noon
     */
+        int grade = 85;
+        if (grade >= 90 && grade <= 100) {
+
+            System.out.println("A");
+        } else if (grade < 90 && grade >= 80) {
+            System.out.println("B");
+        } else if (grade < 80 && grade >= 70) {
+            System.out.println("C");
+        } else if (grade < 70 && grade >= 60) {
+            System.out.println("D");
+        } else {
+        }
 
     }
-}
+    }
