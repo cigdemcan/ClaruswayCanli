@@ -6,11 +6,14 @@ public class C03_NestedForLoop {
         iç dongu diş dongunun her adımında tekrar çalışır
         içiçe dongulerde en içteki döngu en önce çalışır
        */
-        for (int apt = 0; apt <= 10; apt++) {//dış dongu
+      for (int apt = 0; apt <= 10; apt++) {//dış dongu
             System.out.println("dış dongu: " + apt);
             for (int daire = 1; daire < 6; daire++) {//iç dongu
                 System.out.println("apt" + apt + "için daire dongu :" + daire);
             }
         }
+
+
+
     }
 }

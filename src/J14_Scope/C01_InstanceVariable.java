@@ -26,7 +26,7 @@ public class C01_InstanceVariable {   /*                                  INSTAN
             String icin default value "null" dir.
 
 */
-
+//instance obj var
     int yas = 48; //initialized ilk atamsı yapılmış ins. variable
     int tecrube;// default deger 0
     String name;// default deger null
@@ -35,7 +35,25 @@ public class C01_InstanceVariable {   /*                                  INSTAN
     char unvan;// default deger bosluk
 
     public static void main(String[] args) {//main bası
+//obj creatıon->ClasnameobjName=new ClasName();
+        C01_InstanceVariable ebikGabıkObj=new C01_InstanceVariable();
+        ebikGabıkObj.boy=1.9;
+        ebikGabıkObj.developerMı=true;
+        ebikGabıkObj.name="kubra hanım";
+        System.out.println(ebikGabıkObj.name);//kubra hanım
+        System.out.println(ebikGabıkObj.tecrube);
+
 
     }//main sonu
+
+    public static void staticMethod() {
+    }
+
+    public void non_staticMethod(){
+        System.out.println("static olmayan methoddan agama slm");
+    }
+    public static void statıcMethod(){
+        System.out.println("statıc guneş methoddasın agam devamke");
+    }
 }
 
