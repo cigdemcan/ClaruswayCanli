@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class haftanınTaskı {
   /*  Bir top belirli yÃ¼kseklikten atÄ±lmaktadÄ±r.
-            AtÄ±ldÄ±ktan sonra, atÄ±ldÄ±ÄŸÄ± yÃ¼ksekliÄŸin 3/4 u kadar yerden yukarÄ± doÄŸru zÄ±plamaktadÄ±r
+            Atıldıktan sonra, atılan yÃ¼ksekliÄŸin 3/4 u kadar yerden yukarÄ± doÄŸru zÄ±plamaktadÄ±r
     Top zÄ±plama  yÃ¼ksekliÄŸi 1 metrenin altÄ±na indiÄŸinde durmaktadÄ±r.
     Bu ana kadar aldigi toplam yolu ve yere vurma sayÄ±sÄ±nÄ± bulan do while code blogu create ediniz.
 
@@ -30,21 +30,13 @@ public class haftanınTaskı {
         System.out.println("topun aldigi toplam yol : "+topunToplamYolu);
 
 
-
-
-
-
     /*
      * Kullanicidan gelen datayi methodda parametre olarak alan
      * ve datanın 2'nin kuvveti olup olmadığını kontrol eden PowersofTwo(num) methodu create ediniz.
      */
-
         Scanner sc=new Scanner(System.in);
-
-
         System.out.println("pozitif tam sayi giriniz");
         int num = scan.nextInt();
-
         System.out.println(powersOfTwo(num));
         PowersofTwo(num);
     }
