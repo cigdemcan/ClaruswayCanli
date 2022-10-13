@@ -78,5 +78,13 @@ public class C01_Arrays {
         System.out.println(koltukSayısı);//2
         //  System.out.println(Arrays.toString(yeniArr));//
 
+       //array elemanları naturel (k->b:ascending b->:descending,alfabetik sıralama
+        System.out.println(Arrays.toString(isimArr));//sıralama oncesi
+        Arrays.sort(isimArr);//isimarr elemanları naturel sıralama yapıldı
+        System.out.println(Arrays.toString(isimArr));//[QA Özge hanım,cebrail,enise,muharrem,nazım]
+
+        System.out.println(Arrays.toString(sayıArr));//sıralama öncesi
+        Arrays.sort(sayıArr);//sayılar k->b sıralandı
+        System.out.println(Arrays.toString(sayıArr));//sıralama sonrası sayılar
     }
 }
