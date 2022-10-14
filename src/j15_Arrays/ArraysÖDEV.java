@@ -7,20 +7,17 @@ public class ArraysÖDEV {
     public static void main(String[] args) {
 
 
-
-
 // Task -> Kullanıcıdan alacağınız 5 adet sayıyı , girişi sırasına göre tersten print eden code create ediniz
-    /*   Scanner sc = new Scanner(System.in);
-        int sayı[] = new int[5];
-        int tersden[] = new int[sayı.length];
-        for (int i = 0; i < sayı.length ; i++) {
+      Scanner sc = new Scanner(System.in);
+        int arr[] = new int[5];
+        for (int i = 0; i < 5; i++) {
             System.out.println(i+". elemanını giriniz");
-
+         arr[i]=sc.nextInt();
         }
-        for (int i = sayı.length-1; i >= 0 ; i--) {
-
+        for (int i = 4; i >= 0 ; i--) {
         }
-        System.out.println(Arrays.toString();
+        int i = 0;
+        System.out.println(arr[i]+" ");
 
 
 
