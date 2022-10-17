@@ -1,4 +1,4 @@
-package j12_Loops.L01_ForLoop.L02_WhileLoop;
+package j12_Loops;
 
 import java.util.Scanner;
 
