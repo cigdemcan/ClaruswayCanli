@@ -21,5 +21,11 @@ public class C12_remove {
         listSehir.remove("Münih");//tekrarlı elelman varsa ilk index elelman silinir diğerlerine dokunulmaz
         System.out.println("listSehir = " + listSehir);//[Stockholm, Münih, Angara, Münih]
 
+        ArrayList<String> ListUlke = new ArrayList<>(List.of("Alamanya", "İngiltere","Amarigonya","İsveç"));
+        listSehir.addAll(ListUlke);//sehirlist e ulkelıst eklendi
+        System.out.println("listSehir = " + listSehir);
+        listSehir.removeAll(ListUlke);//sehirlisten ulkelist cıkarıldı
+        System.out.println("listSehir = " + listSehir);
+
     }
 }
