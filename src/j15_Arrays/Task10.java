@@ -15,9 +15,14 @@ int arr[]={1,2,3,-4,-5};
 işretDeğiştir(arr);
     }
     private static void işretDeğiştir(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            arr[i]=-1*arr[i];
+      //  for (int i = 0; i < arr.length; i++) {
+       //     arr[i]=-1*arr[i];
+      //  }
+     //   System.out.println(Arrays.toString(arr));
+        for (int i:arr) {
+            i=i*(-1);
+            System.out.print("i = " + i);
+            
         }
-        System.out.println(Arrays.toString(arr));
     }
 }
