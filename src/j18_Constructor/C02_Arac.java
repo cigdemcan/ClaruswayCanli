@@ -33,8 +33,8 @@ public class C02_Arac {
         System.out.println("myCar = " + myCar);
     }//maın disi
 
-    @Override
-    public String toString() {//tum obj field print edilir
+   // @Override
+    public String toString() {
         return "C02_Arac{" +
                 "marka='" + marka + '\'' +
                 ", model='" + model + '\'' +

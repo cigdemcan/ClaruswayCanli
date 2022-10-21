@@ -14,6 +14,9 @@ public class C03_Student {//maın olmayan sadece student obj create etmek için 
             System.out.println("agam diploman hayırlı olsun");
         }else System.out.println("agam seneye de bekleriz");
     }
+    public void sosyalFaaliyet(){
+        System.out.println("agam fiziksel zındelik=koş babam koş");
+    }
 
     @Override
     public String toString() {//obj referans değeri
@@ -25,5 +28,7 @@ public class C03_Student {//maın olmayan sadece student obj create etmek için 
                 ", okulNo=" + okulNo +
                 ", takdir=" + takdir +
                 '}';
+
+
     }
 }
