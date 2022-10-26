@@ -1,4 +1,4 @@
-package j04_AritmeticOperators.tasks;
+package j04_AritmeticOperators;
 
 import java.util.Scanner;
 

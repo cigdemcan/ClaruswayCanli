@@ -15,15 +15,15 @@ public class Task02_ElektrikHesap {/*
     double fatura;
 
 
-    public Task02_ElektrikHesap() {
-
-    }
 
 
-    public int tuketimEkle(int tuketım){
+
+    public int tuketimEkle(int tuketım)
+    {
         return toplamTuketım+=tuketım;
     }
-    public double odenecekTutar(){
+    public double odenecekTutar()
+    {
         return fatura=toplamTuketım*oran;
    }
 

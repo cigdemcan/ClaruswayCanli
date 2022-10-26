@@ -1,5 +1,11 @@
 package j19_StaticVariable;
 
+
+
+import java.security.KeyStore;
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Task03_StudentClass { /*
     Task 03 ->
     Lesson Class :  fields : name, credit (1-10 arasında değer almalı)
@@ -9,4 +15,7 @@ public class Task03_StudentClass { /*
                        alamayacagı dersleri print eden code create ediniz
 
      */
-}
+    String name;
+    int maxCredit = 10;
+
+    }

@@ -16,7 +16,7 @@ public class Task01 {
 
         }
         System.out.println("agam istediğin array :"+Arrays.toString(arr));
-Arrays.sort(arr);//arr k->b sortıngen yapıldı
+      Arrays.sort(arr);//arr k->b sortıngen yapıldı
         for (int i =arr.length-1;i>=0 ; i--) {
             System.out.println(arr[i]+" ");
 

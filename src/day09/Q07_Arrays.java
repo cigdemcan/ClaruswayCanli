@@ -1,5 +1,9 @@
 package day09;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Q07_Arrays {
     public static void main(String[] args) {
 
@@ -14,6 +18,32 @@ public class Q07_Arrays {
          *
          */
 
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Olusturmak istediginiz listin uzunlugunu giriniz : ");
+        int listUzunluk = scan.nextInt();
+
+        List<Integer> list = new ArrayList<>();
+        System.out.println("girdiginiz list uzunlugu kadar eleman ekleyiniz ..");
+
+        for (int i = 0; i < listUzunluk; i++){
+            list.add(scan.nextInt());
+        }
+
+        tekrarliEleman(list);
 
     }
+
+    private static void tekrarliEleman(List<Integer> ls) {
+        List<Integer> tekrarliList = new ArrayList<>();
+        for (int i = 0; i < ls.size(); i++){ //ilk listem
+            for (int j = i+1; j <ls.size(); j++){ //diger indexleri karislastiracak
+                if(ls.get(i) == ls.get(j) && !tekrarliList.contains(ls.get(i))){
+                    tekrarliList.add(ls.get(i));
+                }
+            }  }
+        System.out.println("tekrarli listenin elemanlari :" + tekrarliList);
+    }
+
+
 }
+
