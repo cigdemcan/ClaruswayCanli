@@ -1,4 +1,4 @@
-package j22_DateTime.HaftanınSorusu;
+package j22_DateTime.GirişProjesi;
 
 import java.time.LocalDateTime;
 
@@ -31,9 +31,18 @@ public class Kullanıcı {
     String name;//kullanıcı obj ure
     LocalDateTime kayıtZamanı;//full parametreli cons.
 
+    @Override
+    public String toString() {//bu class dan olusturulan obj print etmek için obj datalarını string tipine çevirir
+        return "Kullanıcı{" +
+                "name='" + name + '\'' +
+                ", kayıtZamanı=" + kayıtZamanı +
+                '}';
+    }
+
     public Kullanıcı(String name, LocalDateTime kayıtZamanı) {
         this.name = name;
         this.kayıtZamanı = kayıtZamanı;
+
     }
 }
 

@@ -1,6 +1,4 @@
-package L01_ForLoop.Task;
-
-import java.util.Scanner;
+package j11_ForLoop.Task;
 
 public class Task11_Nested {
     public static void main(String[] args) {

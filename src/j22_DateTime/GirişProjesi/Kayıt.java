@@ -1,4 +1,4 @@
-package j22_DateTime.HaftanınSorusu;
+package j22_DateTime.GirişProjesi;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -14,4 +14,17 @@ public class Kayıt {
        kullanıcıKişiler.add(k1);
 return kullanıcıKişiler;
     }
+
+    public void sanslıKullanıcı(ArrayList<Kullanıcı> kllObj) {
+        for (Kullanıcı k:kllObj) {
+            if (k.kayıtZamanı.getSecond()<=10){
+                System.out.println(k.name);
+
+        } {
+
+        }
+    }
 }
+
+    public void listele(ArrayList<Kullanıcı> kllObj) {
+    }

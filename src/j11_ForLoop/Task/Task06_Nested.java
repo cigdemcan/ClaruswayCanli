@@ -1,4 +1,4 @@
-package L01_ForLoop.Task;
+package j11_ForLoop.Task;
 
 public class Task06_Nested {
     public static void main(String[] args) {
