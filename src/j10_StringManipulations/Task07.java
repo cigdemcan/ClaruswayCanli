@@ -14,7 +14,7 @@ public class Task07 {
         if(str.length()>index) {
             System.out.println(str.substring(index,index+1));
         }else System.out.println("girdiğiniz metinde olmayan index istiyorsunuz");
-//git hup
+
 
 
 

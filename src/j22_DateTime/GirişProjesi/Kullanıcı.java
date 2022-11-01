@@ -28,6 +28,7 @@ public class Kullanıcı {
         Kayıt yeniKayıt = new Kayıt();
         ArrayList<Kullanıcı> kisi = yeniKayıt.kayıtAl();
         yeniKayıt.sanslıKullanıcı(kişi);*/
+    //Task 1 step
     String name;//kullanıcı obj ure
     LocalDateTime kayıtZamanı;//full parametreli cons.
 
