@@ -93,5 +93,6 @@ public class C02_StringBuilder {
         System.out.println("sb6.equals(sb6) = " + sb6.equals(sb6));//true
 
         System.out.println("str1.equals(sb6.toString()) = " + str1.equals(sb6.toString()));//True
+
     }
 }

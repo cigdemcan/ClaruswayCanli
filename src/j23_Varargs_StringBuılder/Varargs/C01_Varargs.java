@@ -70,6 +70,7 @@ public class C01_Varargs {
             System.out.println("en uzun kelime :"+enUzun);
                   {
 
+
             }
         }
     }
