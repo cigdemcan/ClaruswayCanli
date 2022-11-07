@@ -12,7 +12,8 @@ public class Task05 {
         int arr[]={1,2,3,4};
         int[]yeniArr=new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            yeniArr[i]=arr[arr.length-1-i];
+          yeniArr[i]=arr[arr.length-1-i];
+
         }
         System.out.println(Arrays.toString(yeniArr));
     }

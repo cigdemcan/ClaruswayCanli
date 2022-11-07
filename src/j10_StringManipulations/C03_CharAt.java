@@ -16,7 +16,7 @@ public class C03_CharAt {
           //ilk index karakter-->charAt(0)
         System.out.println(şehir.charAt(0));//I
 
-        System.out.println();şehir.charAt(18);//rte
+      //  System.out.println();şehir.charAt(18);//rte
 
         //TRİCK->charAt(index boyutunu geçerse rte verir
         //Task-:istanbul izmir girilen kelimenin ortasındaki karakteri print eden code creata ediniz

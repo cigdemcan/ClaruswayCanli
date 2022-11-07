@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Task02 {
     public static void main(String[] args) {
         //task-> girilen int array elemanları toplamını print eden code create ediniz.
-        Scanner sc = new Scanner(System.in);
+      /*  Scanner sc = new Scanner(System.in);
 
         System.out.print("agam kaç elemanlı array istirsen : ");
         //int arrBoyut = sc.nextInt();
@@ -29,6 +29,25 @@ public class Task02 {
             arrToplam+=i;
             System.out.println("arrToplam = " + arrToplam);
 
+        }*/
+
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("kacelemanlı array istıyorsun");
+        int sayı=sc.nextInt();
+        int arr[]=new int[sayı];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i +". elemanını giriniz");
+            arr[i]=sc.nextInt();}
+            System.out.println(Arrays.toString(arr));
+            int arrToplam=0;
+            for (int j = 0; j < arr.length; j++) {
+                arrToplam +=arr[j];}
+        System.out.println(arrToplam);
+
+
+            }
+
         }
-    }
-}
+
+
