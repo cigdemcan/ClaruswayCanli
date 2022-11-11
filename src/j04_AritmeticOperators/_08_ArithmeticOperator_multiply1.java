@@ -14,7 +14,9 @@ public class _08_ArithmeticOperator_multiply1 {
         double num1=scan.nextDouble();
         double num2=scan.nextDouble();
         double num3=scan.nextDouble();
-        System.out.println("3 Double sayının çarpımı");
+
+        double sonuc=num1*num2*num3;
+        System.out.println("sonuc = " + sonuc);
 
 
 

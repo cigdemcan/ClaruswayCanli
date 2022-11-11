@@ -7,7 +7,7 @@ public class C03_SwapinterviewQuestion {
 
         //a)
 
-
+        System.out.println(sayı1+sayı2);
 
 
     }

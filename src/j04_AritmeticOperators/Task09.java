@@ -12,9 +12,14 @@ public class Task09 {
      */
 
     public static void main(String[] args) {
-
-
-
+        Scanner scan=new Scanner(System.in);
+        System.out.println("ciftlikteki inek sayısını giriniz");
+        int inek= scan.nextInt();
+        System.out.println("ciftlikteki koyun sayısını giriniz");
+        int koyun= scan.nextInt();
+        System.out.println("ciftlikteki tavuk sayısını giriniz");
+        int tavuk= scan.nextInt();
+        System.out.println("ciftlikteki toplam ayak saısı "+ ((inek*4)+(koyun*4)+(tavuk*2)));
     }
 
 }

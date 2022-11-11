@@ -8,6 +8,13 @@ public class _28_Scanner7 {
               Konsola "Bir Banka Hesabınız Var mı ? " yazınız.
               Varsa True , yoksa False olarak  konsoldan cevap veriniz.
               Boolean'ı yazdırınız.   */
+        boolean bankaHesabı;
+        System.out.println("bir banka hesabınız var mı ");
+        if(bankaHesabı=true){
+            System.out.println("hesap var");
+        }else
+
+        System.out.println("hesap yok");
 
 
     }

@@ -1,5 +1,7 @@
 package j03_ScannerClass_TypeCasting.tasks;
 
+import java.util.Scanner;
+
 public class Task02 {
     public static void main(String[] args) {
         /*
@@ -17,5 +19,12 @@ public class Task02 {
          *
          *
          */
+        Scanner sc=new Scanner(System.in);
+        System.out.println("boyunuzu giriniz");
+        double boy=sc.nextDouble();
+        System.out.println("kilonuzu giriniz");
+        double kilo=sc.nextDouble();
+        double VKE=kilo/(boy*boy);
+        System.out.println("VKE = " + VKE);
     }
 }
