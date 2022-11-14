@@ -1,5 +1,7 @@
 package j10_StringManipulations;
 
+import java.util.Scanner;
+
 public class C05_Start_EndWith {
     public static void main(String[] args) {
         /*sartsWith()
@@ -23,11 +25,15 @@ public class C05_Start_EndWith {
         //Task->girilen e -mail hesabını @gmail.com içermiyorsa "lütfen gmail hesabi giriniz"
         //@gmail.com ile bitiyorsa "hesabınız onaylandı"aksi durumda geçerli hesap giriniz " print eden code create ediniz
 
-
-
-
-
-
+        Scanner sc=new Scanner(System.in);
+        System.out.println("e mail giriniz");
+        String eMail=sc.nextLine();
+        if (false){
+            System.out.println(eMail.endsWith("@mail"));
+            System.out.println("gecerli email giriniz");
+        }else {
+            System.out.println("hesabınız onaylandı");
+        }
 
 
 

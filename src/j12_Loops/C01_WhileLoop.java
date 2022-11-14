@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class C01_WhileLoop {
     public static void main(String[] args) {
-        /*baslangıc ve bitiş degerleri net(bilinen degerler) olan tekrarlarda foor loop ama adım sayısı belli olmayıp bir şarta
+        /*baslangıc ve bitiş degerleri net(bilinen degerler) olan tekrarlarda foor loop ama adım sayısı
+         belli olmayıp bir şarta
         bağli olan tekrarlarda while loop kullanılmalı*/
         /*task01->11 den 20 ye kadar olan tamsayıları print eden code create ediniz*/
         System.out.println("for çözüm");

@@ -10,7 +10,9 @@ public class _17_ComparisonOperators_equal_equal {
             Eger num1  num2 ya  eşitse console'da true yazsın.
             Değilse false  */
 
-
+        int num1=10;
+        int num2=12;
+        System.out.println(num1==num2);
 
 
     }

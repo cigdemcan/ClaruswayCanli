@@ -12,7 +12,7 @@ public class Task13 {
          */
         Scanner scanner=new Scanner(System.in);
         int arr[]=new int[8];
-int ucebolen=0;
+        int ucebolen=0;
         for (int i = 0; i <8 ; i++) {
             System.out.println(i+" . index sayıyı giriniz: ");
             arr[i]=scanner.nextInt();

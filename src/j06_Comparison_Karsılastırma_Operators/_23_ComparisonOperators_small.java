@@ -10,6 +10,9 @@ public class _23_ComparisonOperators_small {
           Cevabı yazdırın.  */
 
         //  Kodu aşağıya yazınız.
+        double d3=14.23;
+        double d4=14.23;
+        System.out.println((d3<d4));
 
 
     }

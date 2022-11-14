@@ -17,7 +17,7 @@ atlar ve loop'un bir sonraki değerinden devam eder.
         for(int i=0;i<meyıl.length(); i++){
             char ch=meyıl.charAt(i);
             if (ch==' ')continue;
-            System.out.println(ch);
+            System.out.print(ch);
         }
 
     }

@@ -10,6 +10,9 @@ public class _19_ComparisonOperators_equals {
         String1'in String2'ye eşit olduğunu doğrulayın.  */
 
         // Kodu aşağıya yazdırınız.
+        String s1="Apple";
+        String s2="Apple";
+        System.out.println(s1==s2);
 
 
     }

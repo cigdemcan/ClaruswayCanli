@@ -1,6 +1,6 @@
 package J02_DtaTypes_WrapperClass;
 
-public class C02_DataTypes {
+public class     C02_DataTypes {
     public static void main(String[] args) {
 
 

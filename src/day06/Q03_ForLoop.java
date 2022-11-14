@@ -14,7 +14,8 @@ public class Q03_ForLoop {
      */
         String str = "java";
         for (int i = 0; i < str.length() ; i++) {
-            System.out.print(str.charAt(i) + "*");
+           // System.out.print(str.charAt(i) + "*");
+            System.out.println(str.charAt(i));
         }
 int num=100;
         for (int i=num; i>=0; i=i-2){//i-=2 aynıdır

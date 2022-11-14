@@ -17,7 +17,12 @@ public class C02_ifElseStatement {
         /*TASK-> girilen yasın 18 den buyukluğunu kontrolen eden code creata ediniz
         18 den kucuk ise ehliyet alamazsınız print ediniz
          */
-
+        Scanner scan = new Scanner(System.in);
+        System.out.println("yasınızı giriniz");
+        int yas1 = sc.nextInt();
+        if (yas1 > 18) {
+            System.out.println("ehlıyet alabilirsiniz");
+        }else System.out.println("ehliyet alamazsınız");
 
     }
 }

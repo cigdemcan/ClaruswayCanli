@@ -9,7 +9,7 @@ public class Task11 {
 		 $ ve  £  isareti olanlarin toplamlarini ayri ayri bulup yazdıran java code create ediniz.
         String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
         */
-        String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
+     /*   String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
         System.out.println("paranın string hali :"+str);
 
         int toplamDolar = 0;
@@ -28,6 +28,25 @@ public class Task11 {
             }
         }
         System.out.println("toplam  $ miktarı :" + toplamDolar);
-        System.out.println("toplam  £ miktarı :" + toplamSterlin);
+        System.out.println("toplam  £ miktarı :" + toplamSterlin);*/
+        String str = "$1 $23 $134 $2 $7 $24 £32 £40 £2 £65 £4 ";
+        System.out.println(str);
+        int dolart=0;
+        int eorot=0;
+        String para[]=str.split(" ");
+        System.out.println(Arrays.toString(para));
+        for (int i = 0; i < para.length; i++) {
+            if (para[i].contains("$")){
+                dolart+=Integer.parseInt(para[i].replace("$",""));
+
+
+            }else {
+                eorot+=Integer.parseInt(para[i].replace("€",""));
+
+            }
+
+        }
+        System.out.println(eorot);
+        System.out.println(dolart);
     }
 }

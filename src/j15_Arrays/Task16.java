@@ -8,9 +8,9 @@ public class Task16 {
 
             int crpm=1;
 
-            for (int kat = 0; kat < sayi.length; kat++) {
+            for (int i = 0; i < sayi.length; i++) {
 
-                crpm*=sayi[kat][sayi[kat].length-1];
+                crpm*=sayi[i][sayi[i].length-1];
 
             }
             System.out.println(crpm);//96->3*8*4

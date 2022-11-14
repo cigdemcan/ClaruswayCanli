@@ -1,4 +1,4 @@
-package HalukJava.j06_Comparison_Karsılastırma_Operators.tasks;
+package j06_Comparison_Karsılastırma_Operators;
 
 import java.util.Scanner;
 
@@ -14,6 +14,7 @@ public class _18_ComparisonOperators_equal_equal2 {
 
         double num1 = dp.nextDouble();
         double num2 = dp.nextDouble();
+        System.out.println(num1==num2);
 
         // Kodu aşağıya yazınız. BU SATIRIN YUKARISINI DEĞİŞTİRMEYİNİZ.
     }

@@ -1,4 +1,4 @@
-package HalukJava.j06_Comparison_Karsılastırma_Operators.tasks;
+package j06_Comparison_Karsılastırma_Operators;
 
 public class _15_ComparisonOperators_smaller {
 
@@ -11,6 +11,8 @@ public class _15_ComparisonOperators_smaller {
             Console'da true yazısını görmelisiniz. */
 
         // Kodu buraya yazınız.
-
+int a=17;
+int b=20;
+        System.out.println(17<20);
     }
 }

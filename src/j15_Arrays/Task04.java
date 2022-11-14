@@ -6,9 +6,41 @@ import java.util.Scanner;
 public class Task04 {
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    { Scanner sc=new Scanner(System.in);
+        System.out.println("kac elemanlı array");
+        int arrboyut =sc.nextInt();
+        int arr[]=new int [arrboyut];
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(i+ ". elemanı giriniz");
+            arr[i]= sc.nextInt();
+
+
+        }
+        System.out.println(Arrays.toString(arr));
+        int arrToplam=0;
+        for (int i = 0; i < arr.length; i++) {
+            arrToplam+=arr[i];
+
+
+        } System.out.println(arrToplam);
+        int arrOrtalama=arrToplam/arr.length;
+        System.out.println(arrOrtalama);
+        int ortGecenE=0;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]>arrOrtalama){
+                ortGecenE++;
+
+
+            }
+
+        }
+        System.out.println(ortGecenE);
+
         // task-> girilen bir int array elamanlarından  ortlamadan buyuk olan eleman sayısını print eden code create ediniz
-        Scanner sc = new Scanner(System.in);
+     /*   Scanner sc = new Scanner(System.in);
+
+
 
         System.out.print("agam kaç elemanlı array istirsen : ");
         //int arrBoyut = sc.nextInt();
@@ -40,6 +72,8 @@ public class Task04 {
                 ortlamayıGecenElemnSayısı++;
             }
         }
-        System.out.println("agam giridigin array elamlarından ortlamayı geçen eleman sayısı :" + ortlamayıGecenElemnSayısı);
+        System.out.println("agam giridigin array elamlarından ortlamayı geçen eleman sayısı :" + ortlamayıGecenElemnSayısı);*/
+
     }
+
 }

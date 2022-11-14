@@ -12,6 +12,6 @@ public class Task15 {
                 crpm*=sayi[kat][daire];
             }
         }
-        System.out.println(crpm);//432
+
     }
 }

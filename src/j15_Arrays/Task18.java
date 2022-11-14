@@ -10,7 +10,7 @@ public class Task18 {
         int sayi[][]={{1,2,3},{19,-8},{24,10,-41}};
 
         int yeniArr[]=new int [sayi.length];
-int toplam=0;
+        int toplam=0;
         for (int k = 0; k < sayi.length; k++) {
             for (int d = 0; d < sayi[k].length; d++) {
                 toplam+=sayi[k][d];
