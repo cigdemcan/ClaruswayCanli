@@ -1,0 +1,5 @@
+1- ıcınde name field i ve bos cons.olan sekil isimli bır Abstract class yazınız
+2-bu clasın alan ve cevre abstract methodları ve içinde alan ve cevre nın sonucu olan to String  methodu
+sekılın adını veren getName somut methodu ve ciz isimli somut methodu ve ciz isimli somut methodlarını ekleyınız
+3-bu sınıftan dikdörgen ve cember isimli iki class olusturunuz
+4-bunlardan birer ornek maın methodu calıstırınız

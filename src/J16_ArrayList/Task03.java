@@ -20,5 +20,10 @@ public class Task03 {
 
         }if(!varMi)
             System.out.println("aradıgın sayı maalesf");
+
+
+
+
     }
+
 }

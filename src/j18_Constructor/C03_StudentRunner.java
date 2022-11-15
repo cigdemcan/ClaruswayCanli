@@ -16,12 +16,14 @@ public class C03_StudentRunner {
         //task-> diğer bir ogrc obj ile tum fields leri prınt edınız
         C03_Student ogrc2=new C03_Student();
 
-        ogrc1.ad="hakan";
-        ogrc1.soyad="can";
-        ogrc1.sınıf=8;
-        ogrc1.okulNo=18;
-        ogrc1.ortalama=98;
-        ogrc1.takdir=true;
+        ogrc2.ad="hakan";
+        ogrc2.soyad="can";
+        ogrc2.sınıf=8;
+        ogrc2.okulNo=18;
+        ogrc2.ortalama=98;
+        ogrc2.takdir=true;
         System.out.println("ogrc2 = " + ogrc2);
+        ogrc2.sosyalFaaliyet();
+        ogrc2.mezuniyet();
     }
 }

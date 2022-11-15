@@ -26,7 +26,7 @@ public class ArrayListÖDEV {
      * 	6.adım		 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
      * 			 ortalama kazançtan aşağıysa o günleri return yap.
      * */
-  /*  static ArrayList<String> gunler = new ArrayList<String>(List.of("pazartesi ", "salı ", "çarşamba ", "perşembe ", "cuma ", "cumartesi ", "pazar "));
+ /* static ArrayList<String> gunler = new ArrayList<String>(List.of("pazartesi ", "salı ", "çarşamba ", "perşembe ", "cuma ", "cumartesi ", "pazar "));
     static ArrayList<Integer> gunlukKazanc = new ArrayList<>();
     static int toplamKazanc = 0;
     static int ortalamaKazanc = 0;
@@ -95,38 +95,42 @@ public class ArrayListÖDEV {
                 11      16      15      6
                 10      9       8       7
          */
+
     public static void main(String[] args) {
 
-    Scanner sc=new Scanner(System.in);
-        System.out.println("Slayangoz matrisin boyutunu giriniz");
-        int boyut=sc.nextInt();
-        int max=boyut;
-        int satır=0;
-        int sutun=-1;
-        int geciş=1;
-        int value=1;
-        int[][] matris = new int[boyut][boyut];
-        for (int i = 0; i <boyut ; i++) {
-            for (int j = 0; j < max; j++) {
-                sutun+= geciş;
-                matris[satır][sutun]=value++;
 
-            }max--;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Slayangoz matrisin boyutunu giriniz");
+        int boyut = sc.nextInt();
+        int max = boyut;
+        int satır = 0;
+        int sutun = -1;
+        int geciş = 1;
+        int value = 1;
+        int[][] matris = new int[boyut][boyut];
+        for (int i = 0; i < boyut; i++) {
             for (int j = 0; j < max; j++) {
-                satır+=geciş;
-                matris[satır][sutun]=value++;
+                sutun += geciş;
+                matris[satır][sutun] = value++;
+
             }
-         geciş*=-1;
+            max--;
+            for (int j = 0; j < max; j++) {
+                satır += geciş;
+                matris[satır][sutun] = value++;
+            }
+            geciş *= -1;
         }
         for (int i = 0; i < boyut; i++) {
             for (int j = 0; j < boyut; j++) {
-                System.out.print(matris[i][j]+"\t");
+                System.out.print(matris[i][j] + "\t");
             }
             System.out.println();
 
         }
 
 
+    }
 
 
 
@@ -136,6 +140,4 @@ public class ArrayListÖDEV {
 
 
 
-
-
-}}
+}

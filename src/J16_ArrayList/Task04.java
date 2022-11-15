@@ -24,5 +24,9 @@ public class Task04 {
         listIsim.clear();//list isim boşaltıldı
         listIsim.addAll(aOlmayanlistIsim);
         System.out.println("listIsim = " + listIsim);//listısım=[Veli,Omer]
-    }
-}
+
+
+
+
+
+}}

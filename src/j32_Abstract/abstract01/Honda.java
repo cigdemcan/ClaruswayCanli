@@ -14,7 +14,7 @@ public abstract class Honda {//parent abstract class
 
     abstract void koltuk();
     abstract void kapı();
-   // final void  finalMethod();//cocrete method bodsiz olamaz
+   // final void  finalMethod();//concrete method bodsiz olamaz
    // final abstract void   finalMethod();//abs method final olamaz
 
    // private void privateMethod();//concrete method badsiz olamaz
