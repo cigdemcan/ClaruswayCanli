@@ -10,6 +10,4 @@ public class Task02_ElektrikHesapRunner {
 		System.out.println("fatura1.toplamTuketım = " + fatura1.toplamTuketım);
 		System.out.println("fatura1.odenecekTutar() = " + fatura1.odenecekTutar());
 		Task02_Musteri musteri1=new Task02_Musteri("Çagla",fatura1);
-
-
-}}
+	}}

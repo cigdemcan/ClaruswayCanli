@@ -11,7 +11,8 @@ public class C03_PassByValue { public static void main(String[] args) {
          */
     // Task -> lis elemanları 24,20,87 iki farklı method ile list elemanlarını
     //      update edip print code create ediniz.
-    //1. method-> with for each 2. method-> set(index,value)
+    //1. method-> with for each
+    // 2. method-> set(index,value)
 
     List<Integer> list = new ArrayList<>(Arrays.asList(24, 20, 87));
     System.out.println("method öncesi list = " + list);//[24, 20, 87]

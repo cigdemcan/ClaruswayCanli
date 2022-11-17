@@ -14,6 +14,8 @@ public class Task03_StudentClassRunner {
         resim.name="matematik";
         resim.maxCredit=3;
 
-
+Task03_LessonClass ders=new Task03_LessonClass(mat101.name,3);
+       int ders1= ders.credit;
+        System.out.println(ders1);
     }
 }

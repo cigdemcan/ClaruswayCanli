@@ -1,6 +1,7 @@
 package j20_PassByValue;
 
-public class C04_PassByValue { static double etiketFiyatı;//güneş
+public class C04_PassByValue {
+    static double etiketFiyatı;//güneş
     static double indirimOranı;//güneş
 
     public static void main(String[] args) {//mnain bası
