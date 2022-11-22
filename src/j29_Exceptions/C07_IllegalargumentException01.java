@@ -17,7 +17,7 @@ ahan da TRİCK kosesinde bugun :)
  */
     public static void main(String[] args) {
         //IllegalargumentException-: kullanılmasını istemediğimiz değerlerde pr hata vermesi isteniyorsa bu exce.
-        // fırlatılır örnek: tas datası için negatif değerler girildiğinde pr. kırılmadan run olması ama girilen değer için excep.
+        // fırlatılır örnek: yas datası için negatif değerler girildiğinde pr. kırılmadan run olması ama girilen değer için excep.
         //fırlatılması için kullanılır
         Scanner sc = new Scanner(System.in);
         System.out.println("agam yasını giresen: ");

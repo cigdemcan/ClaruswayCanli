@@ -16,7 +16,7 @@ public class TaskOdev3 {
     hashset ; 4,2,3,1,7
     cevap: 5
      */
-        HashSet<Integer> set = new HashSet<>(List.of(4,2,3,1,7));
+        HashSet<Integer> set = new HashSet<Integer>(List.of(4,2,3,1,7));
         System.out.println("Setin eleman sayısı: "+totalCount(set));
     }
     private static int totalCount(HashSet<Integer> set) {

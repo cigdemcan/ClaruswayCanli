@@ -23,7 +23,7 @@ public class TaskOdev2 {
     public static void main(String[] args) {
 
 
-    LinkedHashSet<String> ulke=new LinkedHashSet<>(Arrays.asList( "Germany" , "France" , "USA" , "Canada" , "Mexico" , "Brazil"));
+    LinkedHashSet<String> ulke=new LinkedHashSet<String>(List.of( "Germany" , "France" , "USA" , "Canada" , "Mexico" , "Brazil"));
     String str1="Germany";
     String str2="USA";
 

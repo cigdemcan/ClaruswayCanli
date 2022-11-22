@@ -10,17 +10,18 @@ public class C02_FileInputStreamException02 {
             FileInputStream fis = new FileInputStream("C:\\Users\\ZK\\IdeaProjects\\ClaruswayCanli\\src\\j29_Exceptions\\ebikGabık");
             int k;
 
-                try {
-                    while ((k = fis.read()) != -1) {
-                        System.out.print((char) k);
-                    }
-                    System.out.println("agam  içteki try block`tan selamlar");
-                } catch (IOException e) {//daosyaya ulaşılır fakat okunamazsa bu catch çalışır
-                    System.out.println("agam dediğin dosya okunamıyor");
-                    System.out.println("agam  içteki catch block`tan selamlar");
+            try {
+                while ((k = fis.read()) != -1) {
+                    System.out.print((char) k);
                 }
+                System.out.println("agam  içteki try block`tan selamlar");
+            } catch (IOException e) {//daosyaya ulaşılır fakat okunamazsa bu catch çalışır
+                System.out.println("agam dediğin dosya okunamıyor");
+                System.out.println("agam  içteki catch block`tan selamlar");
+            }
 
-                System.out.print("agam  dıştaki try block`tan selamlar");
+            System.out.print("agam  dıştaki try block`tan selamlar");
+
 
         } catch//dosyaya ulasılamazsa bu catch çalışır
         (FileNotFoundException e) {

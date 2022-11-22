@@ -29,7 +29,7 @@ public class C02_FileInputStreamException01 {//hz. Nuh IO işlemleri en parent c
   //  public static void main(String[] args) throws FileNotFoundException {
         FileInputStream fis=new FileInputStream("C:\\Users\\ZK\\IdeaProjects\\ClaruswayCanli\\src\\j29_Exceptions\\ebikGabık");
         //ilgili dosyaya ulaşmak için fis obj tanımlandı parametre olarak ulassılacak dosya yolu (path)girildi
-        //FileNotExceptıon ->adres tanlışsa controlu
+        //FileNotExceptıon ->adres yanlışsa controlu
         /*
         Eğer bir methodda cheked (CTE riski olan exec.)exception varsa method signature (method name sonraki bölüm)hata uyarısı altı kırmızı
         çizgi verir.komutun derlenmesine izin vermez ve kod üzerine geldiğinde Add.. exception handle etme tavsiye eder otomatik throws exce.
