@@ -52,7 +52,7 @@ public class C02_filter {
     //Task : "Functional Programming":cincix code kullanarak list elemanlarının 34 den buyuk yada  çiftlerini  aynı satirda aralarında bosluk olacak sekilde print ediniz.
    public static void printCiftElFunctional3(List<Integer>sayi){
         sayi.stream().
-                 filter(t->t%2==0||t<34).
+                 filter(t->t%2==0||t>34).
                   forEach(C01_LambdaExpression::yazdır);//01 Class``dakı yazdır methodu refere( coll) edildi
 
     }
