@@ -19,10 +19,13 @@ public class C04_entrySet {
         System.out.println("hm = "+ hm);
         System.out.println("hm.entrySet() = " + hm.entrySet());//[ MediaMarkt=183 Euro, Saturn=300 Euro, Ebay= 234 euro, Apple store=333 Euro, Amazon=296 Euro, Vatan=111 Euro]
 
-        for (Map.Entry<String,String> e:hm.entrySet()) {//entrySet ile gelen key value loop için Entry<key,value>data type tanımlanır
+      for (Map.Entry<String,String> e:hm.entrySet()) {//entrySet ile gelen key value loop için Entry<key,value>data type tanımlanır
             System.out.println("e.getValue() = " + e.getValue());
             System.out.println("e.getKey() = " + e.getKey());
 
+
+
+        }
         }
     }
-}
+

@@ -1,0 +1,21 @@
+Collection larda index yapısını desteklemeyen elemanlar için ıterator kullanılır
+Elimizdeki liste içinde gezintiye cıkmaya yarıyor
+Java bızı ilk datadan baslayarak son dataya kadar gezintiye cıkarıyor
+İlk dataya gidince bır sonrakı datanın var olup olmadıgını kontrol edebiliyoruz ve değişiklikler yapabıliyoruz
+ıteratorun 2 tipi var :
+1:ıterator-->bastan sona dogru gezintiye cıkabılıyoruz
+2:ListIterator-->bastan sona sondan basa dogru gezintiye cıkabılıyoruz
+
+ITERATOR VE LISTITERATOR farkları
+
+      1- ITERATOR-> sadece hasNext(), next(), remove() meth çalışır
+         LISTITERATOR -> hasNext(), next(), remove(). hasPrevious(), previous(),add(), set() vs methodlar çalışır
+
+      2- LISTITERATOR -> sadece List yapılarda tanımlanır
+         ITERATOR-> tum collection(list set Array, map..) için tanımlanır.
+
+      3- ITERATOR-> sadece ileri b->s tekrarlar
+        LISTITERATOR -> b<->s ileri ve geri çift yönlü tekrarlar
+
+      4-  ITERATOR-> kapsamı geniş ama aksiyonu az
+        LISTITERATOR -> kapsamı dar ama aksiyıonu çok

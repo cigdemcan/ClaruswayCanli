@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class C05_Sorted {
+public class C05_sorted {
     public static void main(String[] args) {
         List<Integer> sayi = new ArrayList<>(Arrays.asList(24, 38, 49, 33, 7, 3, 42, 66, 75, 45, 46, 55, 35, 25, 67, 16));
         //  List<Integer> sayi = new ArrayList<>(Arrays.asList(1, 3, 5,4,6,12,8));//filter olarak cift  sartı null verecegi için optional class ataması yapar

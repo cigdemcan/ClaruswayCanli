@@ -28,7 +28,7 @@ public class Task02 {
         kartvizit.put("Dev Mehmet",mehmetKrtvzt);
         System.out.println("kartvizit = " + kartvizit);
 
-        System.out.println("kartvizit.get(\"Dev Mehmet\").get(\"telefon\") = " + kartvizit.get("Dev Mehmet").get("telefone"));//12345678
+        System.out.println("kartvizit.get(\"Dev Mehmet\").get(\"telefon\") = " + kartvizit.get("Dev Mehmet").get("telefon"));//12345678
 
         Map<Integer,Kartvizit> krt=new HashMap<>();
     //   Kartvizit k1= new Kartvizit("Enise","enise@tester.com","google company","1905");

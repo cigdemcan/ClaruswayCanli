@@ -22,6 +22,9 @@ public class Task03 {
 
     }//maın sonu
 
+
+
+
     private static ArrayList <String>commonValues(HashSet<String> hs1, HashSet<String> hs2) {
         hs1.retainAll(hs2);//hs1 ve hs2 kesişen ortak elemanlar hs1 e atandı
         ArrayList<String>ebikGabık=new ArrayList<>(hs1);//ortak elemanlardan olusan hs1 arraylıste atandı

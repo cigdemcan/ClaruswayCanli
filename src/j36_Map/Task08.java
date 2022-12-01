@@ -43,9 +43,12 @@ public class Task08 {
 
     }//main sonu
 
+
     private static HashMap<Integer, String> update(HashMap<Integer, String> hm, int sayi, String sehir) {
         if (hm.containsKey(sayi))
             hm.put(sayi, sehir);
         return hm;
+
     }
+
 }

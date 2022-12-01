@@ -32,6 +32,7 @@ Cevap Elephant olmalı.
 
             Scanner sc = new Scanner(System.in);
             System.out.print("agam sayi giresen : ");
+
             int sayi=sc.nextInt();
 
             System.out.println("map1(mp,sayi) = " + map1(mp, sayi));

@@ -74,7 +74,7 @@ public class C06_distinct {
     // Task : listin elemanlarin karakterlerinin cift sayili  karelerini hesaplayan,ve karelerini tekrarsiz buyukten kucuge sirali  print ediniz...
     public static void ciftSayıKare(List<String> menu) {
         menu.
-                stream().map(String::length).filter(C01_LambdaExpression::ciftMi).map(t -> t * t).sorted(Comparator.reverseOrder()).distinct().
+                stream().map(t->t.length()*t.length()).filter(C01_LambdaExpression::ciftMi).sorted(Comparator.reverseOrder()).distinct().
                 forEach(t -> System.out.print(t + " "));
 
     }
