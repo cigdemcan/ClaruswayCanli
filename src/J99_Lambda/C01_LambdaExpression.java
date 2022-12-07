@@ -123,6 +123,5 @@ public class C01_LambdaExpression {
 
 
 
-
     //Task : "Structured Programming":Amele code kullanarak list elemanlarının çiftlerini  aynı satirda aralarında bosluk olacak sekilde print ediniz.
 }
