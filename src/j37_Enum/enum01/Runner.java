@@ -3,8 +3,8 @@ package j37_Enum.enum01;
 public class Runner {
     public static void main(String[] args) {
         //Task -> verilen bır ay numarasına göre kac cektiğini print eden code creata ediniz
-        int ay=3;
-        Aylar ay=Aylar.MART;//Aylar enum'ından ay field value MART olarak tanımlandı
+       /* int ay=3;
+        /*Aylar ay=Aylar.MART;//Aylar enum'ından ay field value MART olarak tanımlandı
         System.out.println("ay = " + ay);
         System.out.println("ay.name() = " + ay.name());
         System.out.println("ay.ordinal() = " + ay.ordinal());
@@ -36,7 +36,7 @@ public class Runner {
 
 
         }
-        System.out.println("agam dewamkeee  ..... ");
+        System.out.println("agam dewamkeee  ..... ");*/
 
     }
 }
