@@ -44,10 +44,21 @@ public class task_Ödev {
             System.out.println("üç harfli isim girin");
         }
 
+
+// Kullanicidan alacaginiz bir stringde bosluk karakterinin olup olmadigini kontrol ediniz.
+// Kullanicidan alacaginiz bir stringin bos olup olmadigini kontrol ediniz.
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("bır ifade giriniz");
+        String str=sc.nextLine();
+        int bosluk = str.indexOf(" ");
+        if (bosluk == -1 && !str.isEmpty())  //bosluk karakteri yoksa ve string ifadem bos degilse
+            System.out.println("sartlara uygun");
+        else System.out.println("sartlara uygun degildir");
+    }
     }
 
 
-}
+
 
 
 

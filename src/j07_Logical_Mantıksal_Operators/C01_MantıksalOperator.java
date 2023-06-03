@@ -5,7 +5,7 @@ public class C01_MantıksalOperator {
       /*
         -------- && - and - (ve)---------
 
-                True   &&    True    -->  True
+         True   &&    True    -->  True
         True   &&    False   -->  False
         False  &&    True    -->  False
         False  &&    False   -->  False

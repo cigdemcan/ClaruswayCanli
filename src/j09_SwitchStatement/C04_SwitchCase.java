@@ -40,7 +40,7 @@ public class C04_SwitchCase {
                 break;
 
             default:
-                System.out.println();
+                System.out.println("yanlıs ifade girdınız");
 
 
 

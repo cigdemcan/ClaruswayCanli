@@ -6,7 +6,7 @@ public class C02_Lenght {
     butun karekterleri (boşluk vs) sayıp adedini verir
      */
 
-       String str="madem geldin dünyaya oyur çaliş javaya" ;
+       String str="madem geldin dünyaya otur çaliş javaya" ;
        int strKrktrSayısı =str.length() ;//int type bir data verir
         System.out.println(str);//madem geldin dünyaya otur çalış javaya
         System.out.println(strKrktrSayısı);//38

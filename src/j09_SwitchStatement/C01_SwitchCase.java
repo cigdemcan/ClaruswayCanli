@@ -46,6 +46,9 @@ public class C01_SwitchCase {
           case 9 :
               System.out.println("girilen rakam dokuz");
               break;
+          default:
+              System.out.println("lutfen rakam gırınız");
+              break;
 
       }
 

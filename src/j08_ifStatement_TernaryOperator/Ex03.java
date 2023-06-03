@@ -13,7 +13,7 @@ public class Ex03 {
          */
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("agam yilini   gir : ");
+        System.out.println("agam yilini gir : ");
         int yil = sc.nextInt();
 
         // 4'un katı       100'un katı olmamamsı    400'un katı olması

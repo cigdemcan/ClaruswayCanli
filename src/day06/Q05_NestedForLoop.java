@@ -12,8 +12,10 @@ public class Q05_NestedForLoop {
                                * * * * *
 */
         Scanner sc=new Scanner(System.in);
-        System.out.println("satır sayısı:"); int satır=sc.nextInt();
-        System.out.println("sutun sayısı:"); int sutun=sc.nextInt();
+        System.out.println("satır sayısı:");
+        int satır=sc.nextInt();
+        System.out.println("sutun sayısı:");
+        int sutun=sc.nextInt();
         for (int i = 1; i <=satır ; i++) {
             for (int j = 1; j<=sutun ; j++) {
                 System.out.print("* ");

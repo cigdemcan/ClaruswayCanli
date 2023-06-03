@@ -5,7 +5,19 @@ import java.util.Scanner;
 
 public class j09_ödevSwitch {
     public static void main(String[] args) {
-        //TASK1->Girilen sayının onlar basamağının değerini yazı ile yazdırınız.
+       /*
+      TASK :
+      Kullanıcıdan notunu alın ve aşağıdaki kurallara göre console'a A, B, C veya D yazdırın.
+      1. 0(dahil) ile 50 arasi - D
+      2. 50(dahil) ile 60 arası - C
+      3. 60(dahil) ile 80 arası - B
+      4. 80(dahil) ustu- A
+      Yanlis not girilirse ekrana "Gecerli not giriniz" yazdirin
+
+      AHAN DA  TRICK :) switch() de long kullanilmaz, float kullanilmaz, double kullanilmaz, boolean kullanilmaz.
+      switch() de int, byte, short, char, String kullanilir.
+
+       */
         Scanner sc=new Scanner(System.in);
         System.out.println("Sayi");
         int sayi= sc.nextInt();
@@ -182,10 +194,117 @@ public class j09_ödevSwitch {
 
 
 
+/*
+        bulundugunuz yerden, bir yere yolculuk edeceksiniz.
+
+        1. Köln veya Frankfurta gidebilirsiniz.
+        2. Bilet fiyatı hesabı = Her 20 Km başına 5 euro. örn: (100 km yol. Bilet parası  (100/20)* 5 =25 euro
+
+todo İPUCU:  toplamTutar, işlem, FrankfurtKm, KmBirimFiyat   gibi sabit veri tipleri oluşturabilirsiniz.
+ İşlemlerde direkt bunları cağırabilirsiniz.
+
+        todo İLK OLARAK;
+
+        "Nereye yolculuk etmek istiyorsunuz? (Frankfurt : 60 KM          ---         Köln : 80 KM ---       (20 KM başına 5 euro bilet parası alınmaktadir..)    yazısı gelsin.
+
+    1.    Frankfurt veya Köln olarak bir giriş yapın. (Girdiğiniz sehrin harfleri , girildikten sonra büyük hale gelsin.
+
+   todo    Frankfurt girildiyse,
+        örn: girdi= Frankfurt
+                case=FRANKFURT:
+
+      Rota = Frankfurt yazdırın.
+      Frankfurt km hesabı işlemi yapın.
+
+      son olarak konsolda: Frankfurt 15 Euro         yazsın.
+      todo  case: KÖLN ise
+
+      "Rota = Köln" yazdırın.
+       km hesabına göre işlemi yapınız.
+
+       son olarak konsolda:  Köln   20 Euro             yazsın.
+
+
+
+       2.  Sistem bize "Kaç kişilik bilet istiyorsunuz? (Max 2 kişilik olabilir):   "   sorusunu sorsun.
+
+       case:1  ise
+        " 1 kişilik " yazdırın. (1 kişilik seçerseniz bir işlem yapmanıza gerek kalmaz, bilet ücreti yukarıda çoktan belirlenmiş olur.)
+
+        case:2 ise
+
+        "2 kişilik " yazdırın
+        2 kişi için bilet fiyatını hesaplayın.
+
+
+        todo  Son olarak yolculugunuzu check edin;
+
+        konsolda örn:   Frankfurt  - 2 Kişilik    yazsın.
+
+        1.Bakiyemi belirtin.
+        2.Toplam Tutarı belirtin.
+        3.double paraUstu oluşturun ve hesaplayın.
+        4.Double para üstünü yazdırın.
+
+
+         */
+
+            /*    Scanner scan = new Scanner(System.in);
+                System.out.println("***** seyahat şirketimize hos geldiniz *****");
+                System.out.println("Frankfurt : 60 km \nKoln : 80\n 20 Km basına 5 euro ucretlendirme yapılır :) ");
+                System.out.print("yolculuk yapacagınız sehri seciniz : ");
+                String hedef = scan.next().toUpperCase();//sehir buyuk harfe update edildi
+                double bakiye=100;
+                double Frankfurt=(80/20)*5;
+                double koln=(60/20)*5;
+
+                switch (hedef){
+                    case "FRANKFURT":
+                        System.out.println("kac kısı gıdeceksınız");
+                        int kısısayısı= scan.nextInt();
+                        System.out.println(Frankfurt);
+
+                        switch (kısısayısı){
+                            case 1:
+                                System.out.println("1 kısılık bılet tıtarınız" + Frankfurt);
+                                System.out.println("kalan bakıyenız :" +(bakiye-Frankfurt));
+                                break;
+                            case 2:
+                                System.out.println("2 kısılık bılet tıtarınız" + (Frankfurt*2));
+                                System.out.println("kalan bakıyenız :" +(bakiye-(Frankfurt*2)));
+                                break;
+                            default:
+                                System.out.println("en fazla ıkı kısı gıdebılırsınız");
+                                break;
+                        }
+                    case "KOLN":
+                        System.out.println("kac kısı gıdeceksınız");
+                        int kısı= scan.nextInt();
+                        System.out.println(koln);
+
+                        switch (kısı){
+                            case 1:
+                                System.out.println("1 kısılık bılet tıtarınız" + koln);
+                                System.out.println("kalan bakıyenız :" +(bakiye-koln));
+                                break;
+                            case 2:
+                                System.out.println("2 kısılık bılet tıtarınız" + (koln*2));
+                                System.out.println("kalan bakıyenız :" +(bakiye-(koln*2)));
+                                break;
+                            default:
+                                System.out.println("en fazla ıkı kısı gıdebılırsınız");
+                                break;
+                        }
+                        break;
+                    default:
+                        System.out.println("koln veya frankfurta gıdebılırsınız");
+                        break;
+
+                }*/
+        }
 
 
 
     }
 
 }
-    }

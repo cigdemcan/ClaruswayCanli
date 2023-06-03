@@ -9,7 +9,8 @@ public class C01_Concatenation {
 
       String name="Nur" ;
       String meslek="Qa tester";
-        System.out.println(name.concat(meslek));//Nur Qa tester
+        System.out.println("name.concat(meslek) = " + name.concat(meslek));
+        // System.out.println(name.concat(meslek));//Nur Qa tester
         System.out.println(name);//Nur
         //TRİCK->String methadları variable geçici değişiklik yapar.
         //ama değişken atama yapılırsa kalıcı değişir.
